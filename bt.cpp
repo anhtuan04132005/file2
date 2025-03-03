@@ -43,7 +43,7 @@ void reverseArray(int arr[], int size) {
 
 void insertElement(int arr[], int &size, int element, int position) {
     if (position < 0 || position > size || size >= 20) {
-        cout << "Vi tri khong hop le hoac mang da day" << endl;
+        cout << "Vi tri khong hop le " << endl;
         return;
     }
     for (int i = size; i > position; i--) {
